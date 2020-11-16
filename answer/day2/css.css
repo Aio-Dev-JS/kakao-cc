@@ -1,0 +1,31 @@
+body {
+  background-color: RGB(254, 99, 70);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  background-color: RGB(245, 223, 180);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30vh;
+  height: 30vh;
+  border: 0.3vh solid black;
+}
+
+.box {
+  background-color: RGB(6, 128, 128);
+  width: 25%;
+  height: 25%;
+  border: 0.3vh solid white;
+}
+
+.box:nth-child(2) {
+  width: 80%;
+  border-style: dashed;
+}
