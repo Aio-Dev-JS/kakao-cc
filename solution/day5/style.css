@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.5vw solid #11c5ad;
+  width: 30vw;
+  height: 60vh;
+  padding: 4vh 1.5vw 3vh 1.5vw;
+}
+
+.box > * {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.top {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top > * {
+  font-size: 2.5vh;
+  font-weight: 700;
+}
+
+.top > div {
+  position: absolute;
+  top: 1.25vh;
+  left: 0;
+}
+
+.middle {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.album_cover {
+  width: 10vh;
+  height: 10vh;
+  background-color: orange;
+  border: 0.2vh solid black;
+  border-radius: 2vh;
+  font-size: 3vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5vh;
+}
+
+.album_detail_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 2;
+  height: 10vh;
+}
+.album_detail_box > h1 {
+  font-size: 3vh;
+  font-weight: 900;
+}
+.album_detail_box > h3 {
+  font-size: 1.5vh;
+  font-weight: 600;
+}
+
+.controller {
+  height: 6vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.controller > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.15vh solid black;
+  border-radius: 2vh;
+  box-shadow: 0px 0.5vh 0px 0vh rgba(0, 0, 0, 1);
+  height: 5vh;
+  font-size: 2vh;
+  font-weight: 900;
+}
+
+.controller_play {
+  width: 50%;
+}
+
+.controller_heart,
+.controller_plus {
+  width: 5vh;
+  border-radius: 3vh;
+}
+
+.colors {
+  height: 25vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.color_box {
+  display: flex;
+  height: 4vh;
+}
+
+.color {
+  width: 4vh;
+  height: 4vh;
+  border: 0.2vh solid black;
+  border-radius: 1vh;
+  margin-right: 1vh;
+  background-color: red;
+}
+.color_detail_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.color_detail_box > h2 {
+  font-size: 1.5vh;
+  font-weight: 900;
+}
+.color_detail_box > h3 {
+  font-size: 1vh;
+  font-weight: 500;
+  color: #909090;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.blue {
+  background-color: blue;
+}
